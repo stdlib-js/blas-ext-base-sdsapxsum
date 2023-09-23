@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import sdsapxsum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-sdsapxsum@deno/mod.js';
+import sdsapxsum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-sdsapxsum@v0.1.0-deno/mod.js';
 ```
 
 #### sdsapxsum( N, alpha, x, stride )
@@ -157,7 +157,7 @@ var v = sdsapxsum.ndarray( N, 5.0, x, 2, 1 );
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
 import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@deno/mod.js';
 import Float32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float32@deno/mod.js';
-import sdsapxsum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-sdsapxsum@deno/mod.js';
+import sdsapxsum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-sdsapxsum@v0.1.0-deno/mod.js';
 
 var x;
 var i;
