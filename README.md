@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import sdsapxsum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-sdsapxsum@esm/index.mjs';
+import sdsapxsum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-sdsapxsum@v0.2.2-esm/index.mjs';
 ```
 
 #### sdsapxsum( N, alpha, x, stride )
@@ -152,7 +152,7 @@ var v = sdsapxsum.ndarray( 4, 5.0, x, 2, 1 );
 
 var discreteUniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform' ).factory;
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@esm/index.mjs';
-import sdsapxsum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-sdsapxsum@esm/index.mjs';
+import sdsapxsum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-sdsapxsum@v0.2.2-esm/index.mjs';
 
 var x = filledarrayBy( 10, 'float32', discreteUniform( 0, 100 ) );
 console.log( x );
