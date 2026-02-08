@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import sdsapxsum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-sdsapxsum@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-ext-base-sdsapxsum/tags). For example,
+
+```javascript
 import sdsapxsum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-sdsapxsum@v0.3.1-esm/index.mjs';
 ```
 
@@ -152,7 +157,7 @@ var v = sdsapxsum.ndarray( 4, 5.0, x, 2, 1 );
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
-import sdsapxsum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-sdsapxsum@v0.3.1-esm/index.mjs';
+import sdsapxsum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-sdsapxsum@esm/index.mjs';
 
 var x = discreteUniform( 10, -100, 100, {
     'dtype': 'float32'
