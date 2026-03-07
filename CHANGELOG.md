@@ -2,6 +2,40 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-03-07)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`24a5f5b`](https://github.com/stdlib-js/stdlib/commit/24a5f5b38a0257c37a3bb81ab6eb846bfdd7dbfe) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/sdsapxsum` [(#10759)](https://github.com/stdlib-js/stdlib/pull/10759) _(by Prajjwal Bajpai)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Prajjwal Bajpai
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.3.1">
 
 ## 0.3.1 (2026-02-08)
